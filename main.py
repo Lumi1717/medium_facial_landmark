@@ -2,7 +2,7 @@ import cv2
 import mediapipe as mp
 import json
 
-image = cv2.imread("tom-hanks-niece.jpg")
+image = cv2.imread("input_image.jpg")
 
 # Face Mesh
 mp_face_mesh = mp.solutions.face_mesh
